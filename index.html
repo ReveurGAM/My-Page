@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Blog</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+<!-- header start -->
+    <div id="header" class="section container-fluid">
+<!--            <img alt="Glenn's avatar" class="img-circle" src="https://code.sololearn.com/Icons/Avatars/0.jpg"> -->
+      <img alt="Glenn's avatar" class="img-circle" src="https://gravatar.com/avatar/fbea5a49634209ed419a70042a6fe195?s=80&d=https://codepen.io/assets/avatars/user-avatar-80x80-bdcd44a3bfb9a5fd01eb8b86f9e033fa1a9897c3a15b33adfc2649a002dab1b6.png">
+      <p>Glenn McGrew II</p>
+    </div>
+<!-- header end -->
+<!-- Menu start -->
+    <div id="Menu" class="container-fluid animated jello infinite">
+        <span class="MenuImg">
+        <h1>Today's Menu</h1>
+        <ul>
+          <li><a href="#Learn"><strong>Tell Me About Yourself</strong></a></li>
+          <li><a href="#About"><strong>About Me</strong></a>
+            <ol>
+              <li><a href="#InterestsHobbiesSkills">Interests and Hobbies</a></li>
+              <li><a href="#Skills">Skills</a></li>
+              <li><a href="#Timetable">Timetable</a></li>
+              <li><a href="#Haunts">Haunts</a></li>
+              <li><a href="#Media">Media</a></li>
+              <li><a href="#Follow">Follow Me</a></li>
+            </ol>
+          </li>
+        </ul>
+        </span>
+      </div>
+<!-- Menu end -->
+<!--Learning about Visitor section start-->
+    <div id="Learn" class="container-fluid">
+      <h1><span>Let's Learn about You First!</span></h1>
+      <form action="#" method="post">
+        <div class="row container-fluid">
+          <div class="container-fluid col-md-6 question"><input type="text" name="name" placeholder="What's your name?"/></div>
+          <div class="container-fluid col-md-6 question"><input type="email" name="email" placeholder="your_email@server.com/.org/.net..."/></div>
+        </div>
+        <div class="row container-fluid">
+          <div class="container-fluid col-md-2"><span class="question">What's your gender?</span></div>
+          <div class="container-fluid col-md-1"><input type="radio" name="gender" value="M" />Male</div>
+          <div class="container-fluid col-md-2"><input type="radio" name="gender" value="F" />Female</div>
+          <div class="container-fluid col-md-1"><input type="radio" name="gender" value="O" />Other</div>
+        </div>
+        <div class="row container-fluid">
+          <div class="container-fluid col-md-3"><span class="question">What is your sexual preference? (select all that apply)</span></div>
+          <div class="container-fluid col-md-2"><input type="checkbox" name="sexuality" value="M"/>Males</div>
+          <div class="container-fluid col-md-2"><input type="checkbox" name="sexuality" value="F"/>Females</div>
+          <div class="container-fluid col-md-2"><input type="checkbox" name="sexuality" value="O"/>Othersex/Middlesex</div>
+          <div class="container-fluid col-md-2"><input type="checkbox" name="sexuality" value="T"/>Transgenders</div>
+          <div class="container-fluid col-md-2"><input type="checkbox" name="sexuality" value="N"/>Androgenous</div>
+          <div class="container-fluid col-md-2"><input type="checkbox" name="sexuality" value="R"/>Androids/Robots/Machines</div>
+          <div class="container-fluid col-md-2"><input type="checkbox" name="sexuality" value="A"/>Animals</div>
+          <div class="container-fluid col-md-2"><input type="checkbox" name="sexuality" value="P"/>Plants</div>
+          <div class="container-fluid col-md-2"><input type="checkbox" name="sexuality" value="I"/>Inanimate objects</div>
+          <div class="container-fluid col-md-2"><input type="checkbox" name="sexuality" value="D"/>Demons, Angels, Demigods and/or Deities</div>
+          <div class="container-fluid col-md-2"><input type="checkbox" name="sexuality" value="S"/>Supernatural beings (ghosts, fairies, etc.)</div>
+          <div class="container-fluid col-md-2"><input type="checkbox" name="sexuality" value="E"/>Extraterrestrial lifeforms</div>
+          <div class="container-fluid col-md-2"><input type="checkbox" name="sexuality" value="C"/>Celibate/Eunuch/Unable</div>
+          <div class="container-fluid col-md-2"><input type="checkbox" name="sexuality" value="Y"/>You don't want to know!</div>
+          <div class="container-fluid col-md-2"><input type="checkbox" name="sexuality" value="U" checked/>Unknown/Other</div>
+        </div>
+        <div class="row container-fluid">
+          <div class="container-fluid col-md-2"><span class="question">Leave me a message:<br/><textarea name="message"></textarea></span></div>
+          <input type="submit" value="send" class="submit btn"/>
+        </div>
+      </form>
+    </div>
+<!--Learning about Visitor section end-->
+<!-- About Me section start -->
+    <div id="About" class="section container-fluid">
+      <h1><span>About Me</span></h1>
+      <div class="container-fluid">Hey! I'm <strong>Glenn</strong>. I started using computers in the late '70s, and I started learning about programming in 1980, although I only really got started in 1984.  I enjoyed the challenges presented by coding, so I went to college and learned more, and I helped one of my teachers with documentation of his grading program.  I also focused on writing and science, and even learned a bit about circuitry.<hr/></div>
+      <div class="container-fluid">From around '90-95, I ran a BBS called the Tower of Babble on my Apple computers (a Franklin ACE 500, then a IIe and a IIgs), which ran on the modified ACOS (MACOS) language.  With the help of the SysOp of Far East Network, Scott Klement, who is a very skilled programmer, I learned about ACOS and a bit about hardware.  I helped other people set up their own BBSes, too, but Scott was the main programmer - he even rebuilt my BBS a couple of times when the files were corrupted.  Eventually, I enlisted Brian Brechlin, who is a tech head/engineer now, to be my co-SysOp in charge of new user admissions.  Although my website offered a variety of things, from forums and games to text and program file libraries, it eventually lost popularity and I ended up taking it down as a result.<hr/></div>
+      <div class="container-fluid">I am pretty good with hardware, and somewhat about finding and eliminating malware, although I'm mostly self-taught.  I learned about remote malware fighting on www.bleepingcomputer.com for a while, too.  Unfortunately, I know very little about networking.  I am currently trying to get a certification, probably MS 70:480 or maybe CompTIA A+, Network+ or something else.<hr/></div>
+      <div class="container-fluid">I have spent several weeks in Singapore, and I lived in Indonesia for 15.5 years, which was a very interesting experience.  I learned about other languages, cultures, religions and history, as well as food and art!  I have two children who are half-Indonesian; their mother died in March 2017 of hypoglycemic shock (although the presiding doctor falsely reported that it was her stage 4 cervical cancer that killed her).<hr/></div>
+      <p class="quote">"If it is to be, it is up to me."</p>
+    </div>
+<!-- About Me section end -->
+<!-- My Hobbies, Interests & Skills section start -->
+    <div id="InterestsHobbiesSkills" class="section container-fluid">
+      <div class="container-fluid InterestsHobbies">
+        <h1><span>My Interests and Hobbies</span></h1>
+        <ul>
+          <li>Reading</li>
+          <li>Writing</li>
+          <li>Personal Development/Self-improvement</li>
+          <li>Learning</li>
+          <li>Video games, especially FPS, strategy, MPO, RPG</li>
+          <li>Photography</li>
+          <li>Martial arts; Kung Fu & T'ai Chi</li>
+          <li>Environment/Nature</li>
+          <li>Animals</li>
+          <li>Bowling</li>
+          <li>Spending time with my kids</li>
+          <li>Darts</li>
+          <li>Billiards/Pool</li>
+          <li>Volleyball (one of my favorite sports!)</li>
+          <li>Swimming (I used to love it, but my joints are messed up now)</li>
+          <li>Sailing (another favorite!)</li>
+          <li>White-water rafting (especially in a 1-person raft!)</li>
+          <li>White-water canoeing</li>
+          <li>Hiking</li>
+          <li>Rock/wall climbing</li>
+          <li>Snorkeling</li>
+          <li>Scuba-diving</li>
+          <li>Camping</li>
+          <li>Meditation/Mindfulness</li>
+          <li>Gardening</li>
+          <li>Helping other people</li>
+          <li>I used to waste time and space collecting a variety of things - now I know it's just a waste</li>
+        </ul>
+      </div>
+      <div class="container-fluid"><img class="myImg" src="http://www.sololearn.com/images/tree.jpg" alt="tree"/></div>
+      <div id="Skills" class="section container-fluid">
+        <h1><span>My Skills</span></h1>
+        <div class="container-fluid machine-skills">
+          <h2><span>Machine Skills/Experience</span></h2>
+          <ul>
+            <li>Pallet jack <progress max="100" value="100"></progress></li>
+            <li>Warehouse scale <progress max="100" value="100"></progress></li>
+            <li>Plastic wrap machine <progress max="100" value="100"></progress></li>
+            <li>Trash compactor <progress max="100" value="100"></progress></li>
+            <li>Cardboard compactor/bailer <progress max="100" value="100"></progress></li>
+            <li>Computers (Windows, Apple IIe/c/gs Macintosh/OS 7-X, Nixdorf, Commodore, Tandy):
+            <ul>
+              <li>Office Productivity:
+              <ul>
+                <li>Word processors <progress max="100" value="100"></progress></li>
+                <li>Spreadsheets <progress max="100" value="50"></progress></li>
+                <li>Presentations <progress max="100" value="75"></progress></li>
+                <li>Databases <progress max="100" value="30"></progress></li>
+              </ul>
+              </li>
+              <li>Maintenance:
+              <ul>
+                <li>Defragmenter <progress max="100" value="100"></progress></li>
+                <li>Cleaners <progress max="100" value="70"></progress></li>
+                <li>Antivirus/antimalware <progress max="100" value="45"></progress></li>
+                <li>Registry editor <progress  max="100" value="35"></progress></li>
+                <li>Upgrading, installing and removing software <progress max="100" value="100"></progress></li>
+              </ul>
+              </li>
+            <li>Hardware installation/replacement <progress max="100" value="100"></progress></li>
+            <li>Computer building <progress max="100" value="100"></progress></li>
+            <li>Programming Languages I've Studied and/or Used:
+              <ul>
+                <li>BASIC <progress max="100" value="90"></progress></li>
+                <li>FORTRAN <progress max="100" value="70"></progress></li>
+                <li>PASCAL <progress max="100" value="20"></progress></li>
+                <li>Machine Language (ML) <progress max="100" value="1"></progress></li>
+                <li>Assembler (ASM) <progress max="100" value="1"></progress></li>
+                <li>C++ <progress max="100" value="30"></progress></li>
+                <li>COBOL <progress max="100" value="50"></progress></li>
+                <li>RPG2/3 <progress max="100" value="50"></progress></li>
+                <li>DB3 <progress max="100" value="10"></progress></li>
+                <li>MACOS <progress max="100" value="50"></progress></li>
+                <li>HTML <progress max="100" value="70"></progress></li>
+                <li>CSS/Bootstrap <progress max="100" value="50"></progress></li>
+                <li>JavaScript <progress max="100" value="20"></progress></li>
+                <li>jQuery <progress max="100" value="20"></progress></li>
+              </ul>
+              </li>
+            </ul>
+            </li>
+          <li>Photocopiers, including fixing paper jams, etc.<br/><progress max="100" value="80"></progress><br/></li>
+          <li>Printers, laser, ink, dot-matrix; form-feed, sheet-feed<br/><progress max="100" value="60"></progress><br/></li>
+          </ul>
+        </div>
+        <div class="container-fluid other-skills">
+          <h2><span>Other Skills</span></h2>
+          <ul>
+            <li>Household Repairs:
+            <ul>
+              <li>Electrical: Light switches, outlets<br/><progress max="100" value="100"></progress></li>
+              <li>Phone: running wiring, installing jack<br/><progress max="100" value="100"></progress></li>
+              <li>Plumbing: repairing/replacing PVC piping, installing faucet<br/><progress max="100" value="90"></progress></li>
+              <li>Painting, Filling cracks, gaps and holes<br/><progress max="100" value="100"></progress></li>
+              <li>Flooring: replacing ceramic tiling<br/><progress max="100" value="75"></progress></li>
+              <li>Tuckpointing<br/><progress max="100" value="50"></progress></li>
+              <li>Roofing: Repair/replacement of ceramic roof tiles<br/><progress max="100" value="100"></progress></li>
+              <li>Structural: Basic repairs<br/><progress max="100" value="70"></progress></li>
+              <li>Tuckpointing<br/><progress max="100" value="30"></progress></li>
+              <li>Tightening up loose knobs, hinges, etc.<br/><progress max="100" value="100"></progress></li>
+              <li>Replacing door knobs, lock cylinders, etc.<br/><progress max="100" value="100"></progress></li>
+            </ul>
+            </li>
+            <li>Household Chores:
+              <ul>
+                <li>Sweeping<progress max="100" value="100"></progress><br/></li>
+                <li>Ironing<progress max="100" value="100"></progress><br/></li>
+                <li>Mopping<progress max="100" value="100"></progress><br/></li>
+                <li>Cooking<progress max="100" value="70"></progress><br/></li>
+                <li>Washing dishes<progress max="100" value="100"></progress><br/></li>
+                <li>Washing laundry<progress max="100" value="70"></progress><br/></li>
+                <li>Basic sewing<progress max="100" value="70"></progress><br/></li>
+                <li>Taking out the garbage/recyclables<br/><progress max="100" value="100"></progress><br/></li>
+                <li>Hanging pictures<progress max="100" value="100"></progress><br/></li>
+                <li>Cleaning windows<progress max="100" value="80"></progress><br/></li>
+                <li>Cleaning the bathroom<progress max="100" value="100"></progress><br/></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+            <p class="quote">"Life is about learning and growing."</p>
+        </div>
+  </div>
+<!-- My Hobbies, Interests & Skills section end -->
+<!-- My Schedule section start -->
+    <div id="Timetable" class="section container-fluid" style="overflow-x:auto;">
+      <h1><span>My Weekly Schedule</span></h1>
+      <table>
+        <caption>The Theory of My Life</caption>
+        <tr>
+          <th>Day</th>
+          <th>Sunday</th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
+          <th>Saturday</th>
+        </tr>
+        <tr>
+          <th>0:00-6:30</th>
+          <td class="cellpurple borderb" colspan="7">Sleep</td>
+        </tr>
+        <tr>
+          <th>6:30-7:10</th>
+          <td class="cellpurple bordert" rowspan="3"></td>
+          <td colspan="5">Get Jas Up & Out</td>
+          <td class="cellpurple bordert" rowspan="3"></td>
+        </tr>
+        <tr>
+          <th>7:00-8:10</th>
+          <td colspan="5">Breakfast</td>
+        </tr>
+        <tr>
+          <th>7:30-8:20</th>
+          <td colspan="5">Get Iregi Up & Out</td>
+        </tr>
+        <tr>
+          <th>8:20-8:30</th>
+          <td rowspan="13" class="cellyellow borderr"><br/><br/><br/><br/>Family time, chores, relax, study, cook, eat, etc.</td>
+          <td colspan="5" class="cellpurple borderb">Relax</td>
+          <td rowspan="13" class="cellyellow borderl"><br/><br/><br/><br/>Family time, chores, relax, study, cook, eat, etc.</td>
+        </tr>
+        <tr>
+          <th>8:30-8:40</th>
+          <td colspan="2" class="cellpurple bordert"></td>
+          <td rowspan="2">Ride the bus to UMOS TechHire</td>
+          <td colspan="2" class="cellpurple bordert"></td>
+        </tr>
+        <tr>
+          <th>8:40-9:30</th>
+          <td colspan="2">Ride the bus to ResCare</td>
+          <td colspan="2">Ride the bus to ResCare</td>
+        </tr>
+        <tr>
+          <th>9:30-15:30</th>
+          <td class="cellorange" colspan="5">Study</td>
+        </tr>
+        <tr>
+          <th>15:15</th>
+          <td colspan="5">Jasmine home</td>
+        </tr>
+        <tr>
+          <th>15:45</th>
+          <td colspan="5">Iregi home</td>
+        </tr>
+        <tr>
+          <th>15:30-16:30</th>
+          <td colspan="5">Ride the bus home/Kids do homework</td>
+        </tr>
+        <tr>
+          <th>16:30-17:00</th>
+          <td rowspan="5" colspan="2" class="cellyellow borderr"></td>
+          <td>Get ready to go</td>
+          <td rowspan="5" colspan="2" class="cellyellow borderl"></td>
+        </tr>
+        <tr>
+          <th>17:00-18:00</th>
+          <td>Ride bus to Aurora Family Services</td>
+        </tr>
+        <tr>
+          <th>18:00-19:00</th>
+          <td>Family therapy</td>
+        </tr>
+        <tr>
+          <th>19:00-20:00</th>
+          <td>Ride bus home</td>
+        </tr>
+        <tr>
+          <th>20:00-21:00</th>
+          <td>Cook & eat dinner</td>
+        </tr>
+        <tr>
+          <th>21:00-22:00</th>
+          <td colspan="5">Get ready for Bed</td>
+        </tr>
+        <tr>
+          <th>22:00-23:00</th>
+          <td class="borderb">Get ready for bed</td>
+          <td class="cellpurple borderb" colspan="5"><br/><br/>Sleep</td>
+          <td class="borderb">Get ready for bed</td>
+        </tr>
+        <tr>
+          <th class="bordert">23:00-24:00</th>
+          <td class="cellpurple bordert" colspan="7"></td>
+        </tr>
+      </table>
+    </div>
+<!-- My Schedule section end -->
+<!-- Links Section start-->
+    <div id="Haunts" class="section container-fluid">
+      <h1><span>Places I Frequent</span></h1>
+      <ul>
+        <li><a href="https://www.codecademy.com" target="_blank">Codecademy</a></li>
+        <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+        <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+        <li><a href="https://www.livinginindonesiaforum.org" target="_blank">Living In Indonesia Forum</a></li>
+        <li><a href="https://www.ridemcts.com" target="_blank">Milwaukee County Transit System</a></li>
+        <li><a href="https://www.slack.com" target="_blank">Slack</a></li>
+        <li><a href="https://www.sololearn.com" target="_blank">Solo Learn</a></li>
+        <li><a href="https://www.steemit.com" target="_blank">Steemit</a></li>
+        <li><a href="https://www.trello.com" target="_blank">Trello</a></li>
+      </ul>
+    </div>
+<!-- Media section start -->
+        <div id="Media" class="section container-fluid">
+  <h1><span>My Media</span></h1>
+  <iframe height="150" width="300" src="https://www.youtube.com/embed/Q6_5InVJZ88" allowfullscreen></iframe>
+        </div>
+<!-- Media section end -->
+        <!-- Contact section start -->
+        <div id="Follow" class="section container-fluid">
+            <h1><span>Follow Me</span></h1>
+            <div class="container-fluid">
+                <div class="container-fluid col-md-2"><a href="https://www.sololearn.com/Profile/7423912/HTML" target="_blank">
+                    <img alt="SoloLearn" src="https://www.sololearn.com/Uploads/icons/sololearn.png" />
+                </a></div>
+                <div class="container-fluid col-md-2"><a href="https://www.facebook.com/public/Glenn-McGrew-II" target="_blank">
+                    <img alt="Facebook" src="https://www.sololearn.com/Uploads/icons/facebook.png"/>
+                </a></div>
+                <div class="container-fluid col-md-2"><a href="https://www.linkedin.com/in/glennamcgrewii" target="_blank">
+                    <img alt="LinkedIn" src="https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAwUAAAAJDUxOWRiNDNlLTFhZDQtNGY0Yi05YTVmLTdiZDZkYjI5MGZiMA.png" />
+                </a></div>
+            </div>
+        </div>
+        <!-- Contact section end -->
+
+<!-- Links Section end-->
+        <footer class="container-fluid">&copy;2017 Glenn McGrew II<hr/></footer>
+      <script src="scripts/index.js"></script>
+    </body>
+</html>
