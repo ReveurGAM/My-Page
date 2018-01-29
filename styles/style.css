@@ -49,9 +49,9 @@ input, textarea {
     outline: none;
 }
 
-li {50
+li {
     margin-bottom: 15px;
-    font-w:10ht: bold;
+    font-style: bold;
 }
 progress {
     width:50%;
@@ -201,21 +201,7 @@ th:nth-child(odd){
     border-left:0;
 }
 /*table stuff end */
-#contacts img {
-    height: 50px;
-    width: 50px;
-    margin-left: 7px;
-    margin-right: 7px;
-}
-#contacts a {
-    text-decoration: none;
-}
-#contacts img:hover {
-    opacity: 0.8;
-}
-#contacts {
-    text-align: center;
-}
+/* header section start */
 #header {
     background-image: url(../images/header.jpg);
     background-size: cover;
@@ -234,48 +220,94 @@ th:nth-child(odd){
     font-weight: bold;
     text-align: center;
 }
-
+/* header section end */
+/* About Me section start */
 #About {
-  background-image: url(../images/night-2950177_960_720.jpg);
+  background-image: url("../images/floating-home.jpg");
   background-position: center top;
   background-size:cover;
   background-repeat: no-repeat;
   color: #fff;
   text-shadow: -1px 0 50px #00f, 1px 0 5px #000;
 }
-
+/* About Me section end */
+/* Menu section end */
 #Menu { /* menu should appear in middle, centered, text left-justified*/
   font-style: italic;
   color: #aaa;
   text-align:center;
   text-shadow: 0 0 30px #FFcc00, 0 0 25px #000;
 }
-
 #Menu a, li  {
   color: #fff;
   font-style: normal;
   text-align: left;
 }
-
-.MenuImg { /*sea island, forest, floating home*/
-  background-image:url(../images/architecture-3095521_960_720.jpg), url(../images/tree-3095703_960_720.jpg), url(../images/panoramic-3049543_960_720.jpg);
+.MenuImg {
+  background-image:url("../images/ice-giant.jpg"), url("../images/forest.jpg"), url("../images/night-sky.jpg");
   background-position: left top, center top, right top;
   background-size:cover cover cover;
-  background-repeat: repeat-x;
-
+  background-repeat: no-repeat
 }
-
+/* Menu section end */
+/* Interests & Hobbies section start */
 .InterestsHobbies {
-  background-image: url(../images/fantasy-2925250_960_720.jpg);
+  background-image: url("../images/sea-castle.jpg");
   background-size:cover;
-  background-position:  left top;
+  background-position:left top;
   background-repeat: no-repeat;
   text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 /*  filter: alpha(Opacity=90);*/
 /*  opacity: 1;*/
   color:#ffffff;
 }
+/* Interests & Hobbies section end */
+/*Skills section start */
 #Skills li {
     color:#600613;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
+#Skills {
+    background-image: url(../images/forest-glade.jpg), url(../images/outerspace-blue-galactic-arm.jpg), url(../images/universe.jpg), url(../images/fox-spirit-of-forest.jpg);
+    background-size:contain, contain, contain, contain;
+    background-position:left top, left center, left center, left bottom;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    display: align-self;
+}
+/*Skills section end */
+/*Places I Frequent section start */
+#Haunts {
+    background-image: url("../images/universe.jpg");
+    background-size:cover;
+    background-position:left top;
+    background-repeat: no-repeat;
+}
+#Haunts li {
+    color:#600613;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    text-align: right;
+}
+/*Places I Frequent section end */
+/* Contact section start */
+#Follow {
+    text-align: center;
+}
+#Follow .squareImg {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#Follow .longImg {
+    height: 50px;
+    width: 100px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#Follow a {
+    text-decoration: none;
+}
+#Follow img:hover {
+    opacity: 0.5;
+}
+/* Contact section end */
