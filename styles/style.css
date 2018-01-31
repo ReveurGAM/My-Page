@@ -204,7 +204,9 @@ th:nth-child(odd){
 /* header section start */
 #header {
     background-image: url(../images/header.jpg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: round;
+    width: 80%;
 }
 #header img {
     display: block;
@@ -232,22 +234,27 @@ th:nth-child(odd){
 }
 /* About Me section end */
 /* Menu section end */
-#Menu { /* menu should appear in middle, centered, text left-justified*/
-  font-style: italic;
-  color: #aaa;
-  text-align:center;
-  text-shadow: 0 0 30px #FFcc00, 0 0 25px #000;
+.MenuImg { /* menu should appear in middle, centered, text left-justified*/
+    font-style: italic;
+    color: #aaa;
+    text-align:center;
+    background-image:url("../images/ice-giant.jpg"), url("../images/forest.jpg"), url("../images/night-sky.jpg");
+    background-position: left top, center top, right top;
+    background-size:33.4% auto;
+    background-repeat: no-repeat;
+    background-color:rgb(192, 238, 195);
 }
-#Menu a, li  {
-  color: #fff;
-  font-style: normal;
-  text-align: left;
+.Menu li {
+    color: #fff;
+    font-style: strong;
+    text-align: center;
+    text-shadow: 0 0 100px rgb(148, 7, 26), 0 0 25px #000;
 }
-.MenuImg {
-  background-image:url("../images/ice-giant.jpg"), url("../images/forest.jpg"), url("../images/night-sky.jpg");
-  background-position: left top, center top, right top;
-  background-size:cover cover cover;
-  background-repeat: no-repeat
+.Menu a {
+    color: #fff;
+    font-style: strong;
+    margin-left: auto;
+    text-shadow: 0 0 100px rgb(148, 7, 26), 0 0 25px #000;
 }
 /* Menu section end */
 /* Interests & Hobbies section start */
@@ -272,7 +279,6 @@ th:nth-child(odd){
     background-size:contain, contain, contain, contain;
     background-position:left top, left center, left center, left bottom;
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-    display: align-self;
 }
 /*Skills section end */
 /*Places I Frequent section start */
