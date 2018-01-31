@@ -88,11 +88,6 @@ caption {
 }
 
 input[type='checkbox'], input[type='radio']{width:auto; padding:auto; margin:auto;}
-
-.question {color:black; text-align:left;}
-
-.container-fluid{text-align:left;}
-
 .copyright {
     font-size: 8pt;
     text-align: right;
@@ -126,12 +121,6 @@ input[type='checkbox'], input[type='radio']{width:auto; padding:auto; margin:aut
     text-align: right;
     margin-top: 10px;
     font-weight: bolder;
-}
-.section {
-    background-color: #fff;
-    padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 10px;
 }
 .submit {
     background-color: #3fb6b2;
@@ -247,28 +236,59 @@ th:nth-child(odd){
   color: #fff;
   text-shadow: -1px 0 50px #00f, 1px 0 5px #000;
 }
-
 #Menu { /* menu should appear in middle, centered, text left-justified*/
   font-style: italic;
   color: #aaa;
   text-align:center;
   text-shadow: 0 0 30px #FFcc00, 0 0 25px #000;
 }
-
 #Menu a, li  {
   color: #fff;
   font-style: normal;
   text-align: left;
 }
-
 .MenuImg { /*sea island, forest, floating home*/
   background-image:url(../images/architecture-3095521_960_720.jpg), url(../images/tree-3095703_960_720.jpg), url(../images/panoramic-3049543_960_720.jpg);
   background-position: left top, center top, right top;
   background-size:cover cover cover;
   background-repeat: repeat-x;
-
 }
-
+/* Learn About You Section start */
+#Learn {
+    background-color: #FFcc00;
+}
+.container1 {
+    display:flex; background-color:#0000FF;
+    padding: 5px;
+    margin: 0;
+    border: 1px solid #000;
+}
+.subContainer {
+    background-color: #ca5c13;
+    margin: 0;
+    align-content: left;
+    border: 1px dashed #000;
+}
+section>div {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color:#000;
+    font-size: 12px;
+}
+row {
+    background-color: rgb(32, 194, 11);
+    flex: auto auto auto;
+    border: 6px #000;
+}
+.question {
+    background-color: rgb(194, 11, 11);
+    color:black;
+    align-content:left;
+    width:auto;
+}
+/* Learn About You Section end */
 .InterestsHobbies {
   background-image: url(../images/fantasy-2925250_960_720.jpg);
   background-size:cover;
