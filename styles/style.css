@@ -8,6 +8,10 @@ body {
     font-size: 13pt;
     padding: 10px;
     margin: 0;
+    font-family: 'Merienda', cursive;
+    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Rammetto One', cursive;
+    font-family: 'Supermercado One', cursive;
 }
 footer {
     border: 2px;
