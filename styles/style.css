@@ -8,10 +8,6 @@ body {
     font-size: 13pt;
     padding: 10px;
     margin: 0;
-    font-family: 'Merienda', cursive;
-    font-family: 'Berkshire Swash', cursive;
-    font-family: 'Rammetto One', cursive;
-    font-family: 'Supermercado One', cursive;
 }
 footer {
     border: 2px;
@@ -255,22 +251,22 @@ th:nth-child(odd){
 }
 /* Learn About You Section start */
 #Learn {
-    background-color: #FFcc00;
+    background-color: rgb(255, 0, 0);
 }
 .container1 {
-    display:flex; background-color:#0000FF;
+    display:flex; background-color:rgb(255, 187, 0);
     padding: 5px;
     margin: 0;
-    border: 1px solid #000;
+    border: 1px solid rgb(243, 247, 4);
 }
 .subContainer {
-    background-color: #ca5c13;
+    background-color: #31ca13;
     margin: 0;
     align-content: left;
     border: 1px dashed #000;
 }
 section>div {
-    background-color: #fff;
+    background-color: rgb(45, 0, 248);
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
@@ -278,13 +274,13 @@ section>div {
     font-size: 12px;
 }
 row {
-    background-color: rgb(32, 194, 11);
+    background-color: rgb(194, 11, 133);
     flex: auto auto auto;
     border: 6px #000;
 }
 .question {
-    background-color: rgb(194, 11, 11);
-    color:black;
+    background-color: rgba(128, 80, 25, 0.842);
+    color:white;
     align-content:left;
     width:auto;
 }
